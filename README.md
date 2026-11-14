@@ -27,15 +27,21 @@ Achtung: Alles, was in diesem Kalender steht, ist öffentlich. Interne Termine g
 Soll ein anderer Kalender angezeigt werden: in `index.html` und `daten-und-orte.html` die
 Kalender-ID (lange Zeichenfolge vor `%40group.calendar.google.com`) per Suchen/Ersetzen austauschen.
 
-## 2. Einmalig: Bilder ergänzen
+## 2. Bilder
 
-Die Seite funktioniert auch ohne Bilder (Farbfläche bzw. Initialen). Dateinamen genau so verwenden:
+Alle Bilder liegen im Ordner `bilder/`. Wer ein Bild austauschen will, ersetzt die Datei unter gleichem Namen.
 
-| Datei | Verwendung | Empfehlung |
-|---|---|---|
-| `bilder/logo.png` | Logo oben links und Browser-Tab | quadratisch, ca. 200 × 200 px |
-| `bilder/header.jpg` | grosses Titelbild Startseite | Querformat, ca. 2000 px breit, unter 400 KB |
-| `bilder/leiter/<cevi-name>.jpg` | Porträts im Leiterteam (freiwillig) | quadratisch, ca. 300 px, z. B. `fumbo.jpg`, `pakuee.jpg` (ü → ue) |
+| Datei | Verwendung |
+|---|---|
+| `logo.svg`, `favicon.png` | Logo oben links und Symbol im Browser-Tab |
+| `cevi-schweiz.png` | Logo Cevi Schweiz in der Fusszeile |
+| `header.jpg` | Titelbild Startseite (2000 × 1125 px) |
+| `spiel.jpg`, `kochen.jpg`, `theater.jpg`, `zelt.jpg` | «Eindrücke» auf der Startseite (900 × 675 px) |
+| `geschichte.jpg`, `gruppe.jpg` | Seite «Programm» (900 × 675 px) |
+| `leiter/<cevi-name>.jpg` | Porträts im Leiterteam (freiwillig, quadratisch, ca. 300 px, z. B. `fumbo.jpg`) |
+
+Das Repository ist öffentlich: Hier gehören nur Bilder hinein, die jeder sehen darf und für die
+die Einwilligung der abgebildeten Personen bzw. der Eltern vorliegt. Das Fotoarchiv bleibt auf OneDrive.
 
 ## 3. Hosting
 

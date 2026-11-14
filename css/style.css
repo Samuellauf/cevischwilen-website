@@ -75,7 +75,7 @@ p { margin: 0 0 1em; }
   text-decoration: none; color: var(--blau); font-weight: 700;
   line-height: 1.15;
 }
-.brand img { width: 46px; height: 46px; border-radius: 50%; object-fit: cover; }
+.brand img { width: 46px; height: 48px; border-radius: 6px; }
 .brand small { display: block; font-weight: 500; font-size: .8rem; color: var(--text-leise); }
 
 .nav-toggle {
@@ -118,7 +118,7 @@ p { margin: 0 0 1em; }
 .hero {
   color: #fff;
   background:
-    linear-gradient(rgba(50, 51, 148, .72), rgba(50, 51, 148, .82)),
+    linear-gradient(90deg, rgba(50, 51, 148, .9) 0%, rgba(50, 51, 148, .72) 45%, rgba(50, 51, 148, .3) 100%),
     url("../bilder/header.jpg") center / cover no-repeat,
     #323394;
   padding: clamp(3.5rem, 12vw, 7.5rem) 0;
@@ -168,6 +168,19 @@ p { margin: 0 0 1em; }
 .checklist { list-style: none; padding: 0; margin: 0 0 1em; }
 .checklist li { padding-left: 1.7rem; position: relative; margin-bottom: .35rem; }
 .checklist li::before { content: "✓"; position: absolute; left: 0; color: var(--rot); font-weight: 700; }
+
+/* ---------- Fotos ---------- */
+.fotos { display: grid; gap: .8rem; grid-template-columns: repeat(4, 1fr); }
+.fotos img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: var(--radius); }
+.card-foto { width: calc(100% + 2.8rem); max-width: none; margin: -1.4rem -1.4rem 1.2rem; aspect-ratio: 16 / 9; object-fit: cover; }
+.cevi-logo { display: inline-block; background: #fff; border-radius: 12px; padding: .5rem; margin-bottom: 1rem; }
+.cevi-logo img { width: 72px; height: 72px; object-fit: contain; }
+@media (max-width: 799px) {
+  .fotos { grid-template-columns: repeat(2, 1fr); }
+  .hero { background:
+    linear-gradient(rgba(50, 51, 148, .72), rgba(50, 51, 148, .72)),
+    url("../bilder/header.jpg") center / cover no-repeat, #323394; }
+}
 
 /* ---------- Kalender ---------- */
 .kalender {

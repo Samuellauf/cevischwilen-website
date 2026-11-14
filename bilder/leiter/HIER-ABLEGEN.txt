@@ -1,1 +1,1 @@
-Dateien gemaess README.md hier ablegen.
+Dateien gemaess der Anleitung (README.md) hier ablegen.
