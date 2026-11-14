@@ -173,8 +173,8 @@ p { margin: 0 0 1em; }
 .fotos { display: grid; gap: .8rem; grid-template-columns: repeat(4, 1fr); }
 .fotos img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: var(--radius); }
 .card-foto { width: calc(100% + 2.8rem); max-width: none; margin: -1.4rem -1.4rem 1.2rem; aspect-ratio: 16 / 9; object-fit: cover; }
-.cevi-logo { display: inline-block; background: #fff; border-radius: 12px; padding: .5rem; margin-bottom: 1rem; }
-.cevi-logo img { width: 72px; height: 72px; object-fit: contain; }
+.cevi-logo { display: inline-block; background: #fff; border-radius: 14px; padding: .8rem; margin-bottom: 1rem; line-height: 0; }
+.cevi-logo img { width: 88px; height: 88px; object-fit: contain; }
 @media (max-width: 799px) {
   .fotos { grid-template-columns: repeat(2, 1fr); }
   .hero { background:
