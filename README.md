@@ -37,7 +37,7 @@ Alle Bilder liegen im Ordner `bilder/`. Wer ein Bild austauschen will, ersetzt d
 | `cevi-schweiz.png` | Logo Cevi Schweiz in der Fusszeile |
 | `header.jpg` | Titelbild Startseite (2000 × 1125 px) |
 | `spiel.jpg`, `kochen.jpg`, `theater.jpg`, `zelt.jpg` | «Eindrücke» auf der Startseite (900 × 675 px) |
-| `geschichte.jpg`, `gruppe.jpg` | Seite «Programm» (900 × 675 px) |
+| `geschichte.jpg`, `basteln.jpg` | Seite «Programm» (900 × 675 px) |
 | `leiter/<cevi-name>.jpg` | Porträts im Leiterteam (freiwillig, quadratisch, ca. 300 px, z. B. `fumbo.jpg`) |
 
 Das Repository ist öffentlich: Hier gehören nur Bilder hinein, die jeder sehen darf und für die
@@ -60,5 +60,5 @@ Jede Änderung im Branch `main` ist nach ein bis zwei Minuten online.
 - **Farben:** Cevi-Blau `#323394` und Cevi-Rot `#C41333` gemäss Corporate Design Manual Cevi Schweiz; definiert ganz oben in `css/style.css`.
 - **Kontaktformular:** öffnet das E-Mail-Programm der Besucher mit der vorbereiteten Nachricht. Braucht keinen Server.
 - **Anmeldung:** verlinkt auf das bestehende Google-Formular.
-- **Datenschutz:** Der Hinweis zu Google Kalender und Google Forms steht in `impressum.html`.
+- **Datenschutz:** Die Datenschutzerklärung steht in `datenschutz.html`. Sie muss angepasst werden, wenn ein neuer Dienst dazukommt (z. B. anderes Anmeldeformular, anderes Hosting) oder Daten an weitere Stellen gehen.
 - **Alte Links:** Die bisherigen Wix-Adressen funktionieren weiter. `kopie-von-daten-und-orte.html`, `die-gruppen.html`, `galerie.html` und `anmeldeformular.html` sind reine Weiterleitungen und sollen nicht gelöscht werden.

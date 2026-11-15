@@ -169,6 +169,11 @@ p { margin: 0 0 1em; }
 .checklist li { padding-left: 1.7rem; position: relative; margin-bottom: .35rem; }
 .checklist li::before { content: "✓"; position: absolute; left: 0; color: var(--rot); font-weight: 700; }
 
+/* ---------- Rechtstexte ---------- */
+.rechtstext { max-width: 800px; }
+.rechtstext h2 { font-size: 1.3rem; margin-top: 2rem; }
+.rechtstext h2:first-child { margin-top: 0; }
+
 /* ---------- Fotos ---------- */
 .fotos { display: grid; gap: .8rem; grid-template-columns: repeat(4, 1fr); }
 .fotos img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: var(--radius); }
