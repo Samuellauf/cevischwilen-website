@@ -129,6 +129,13 @@ p { margin: 0 0 1em; }
 .page-head h1 { color: #fff; margin-bottom: .3em; }
 .page-head p { margin: 0; max-width: 44rem; opacity: .92; font-size: 1.1rem; }
 
+.hero .hero-badge {
+  display: inline-block; background: #fff; color: var(--blau); font-weight: 700;
+  font-size: 1.05rem; border-radius: 999px; padding: .5rem 1.1rem; margin-bottom: 1.4rem; max-width: none;
+}
+.schnuppern { border-left: 6px solid var(--rot); align-self: start; }
+.hinweis { margin-bottom: 1.2rem; }
+
 /* ---------- Buttons ---------- */
 .btn-row { display: flex; flex-wrap: wrap; gap: .8rem; }
 .center .btn-row { justify-content: center; }
